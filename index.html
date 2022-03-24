@@ -1,0 +1,1059 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best - Buy</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <div class="container d-flex justify-content-between my-2">
+        <div class="form-group d-flex align-items-center">
+            <div class="me-3"><select class="form-select border border-secondary" name="" id="">
+                    <option>English</option>
+                    <option>Bangla</option>
+                    <option>Hindi</option>
+                </select></div>
+            <div class="me-3"> <select class="form-select border border-secondary" name="" id="">
+                    <option>USD</option>
+                    <option>BDT</option>
+                    <option>MRP</option>
+                </select></div>
+
+            <div class="me-3"><i class="fa fa-phone" aria-hidden="true"></i>
+                <a href="" class="text-decoration-none">+88-01825-0000000</a>
+            </div>
+
+        </div>
+
+        <div class="d-flex align-items-center ">
+            <div><a href="#" class="text-decoration-none ms-3"><i class="fas fa-random"></i>&nbsp;Compare</a>
+
+
+            </div>
+            <div><a href="#" class="text-decoration-none ms-3"><i class="far fa-heart"></i>&nbsp;Wishlist</a>
+            </div>
+            <div><a href="#" class="text-decoration-none ms-3"><i class="fas fa-user"></i>&nbsp;Profile</a>
+
+            </div>
+        </div>
+
+    </div>
+    <hr class="line">
+    <header class="sticky-top">
+        <section class="bg-light ">
+            <div class="container d-flex justify-content-between ">
+                <div class="d-flex align-items-center">
+                    <a href="" class="navbar-brand"><img src="./images/logo.png" alt="" width="150" height="40"
+                            class="d-inline-block "></a>
+
+                </div>
+                <div class="d-flex align-items-center">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+                        <div class="container-fluid">
+
+                            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                                aria-labelledby="offcanvasRightLabel">
+                                <div class="offcanvas-header">
+                                    <h5 id="offcanvasRightLabel">Menu</h5>
+                                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body text-center">
+                                    <ul class="navbar-nav me-auto my-2 my-lg-0 " style="--bs-scroll-height: 100px;">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Product</a>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown"
+                                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Shop
+                                            </a>
+                                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                <li>
+                                                    <hr class="dropdown-divider">
+                                                </li>
+                                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Contact
+                                                us</a>
+                                        </li>
+                                        <!-- <li class="nav-item">
+    
+                                        </li>
+                                        <li class="nav-item">
+    
+                                        </li> -->
+                                    </ul>
+
+                                </div>
+                            </div>
+                            <div class="collapse navbar-collapse" id="navbarScroll">
+                                <ul class="navbar-nav me-auto my-2 my-lg-0 " style="--bs-scroll-height: 100px;">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Product</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown"
+                                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Shop
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                            <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                                            <li>
+                                                <hr class="dropdown-divider">
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Contact us</a>
+                                    </li>
+                                    <!-- <li class="nav-item">
+
+                                    </li>
+                                    <li class="nav-item">
+
+                                    </li> -->
+                                </ul>
+
+                            </div>
+                        </div>
+                    </nav>
+                    <div>
+                        <a class="nav-link " href="#" tabindex="-1" aria-disabled="true"><i
+                                class="fas fa-search fa-lg text-danger"></i></a>
+                    </div>
+                    <div><a class="nav-link " href="#" tabindex="-1" aria-disabled="true"><i
+                                class="fas fa-shopping-cart fa-lg text-danger"></i></a></div>
+                </div>
+            </div>
+
+        </section>
+
+    </header>
+    <main>
+        <!-- Slider  -->
+
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active bg-size d-flex align-items-center"
+                    style="background-image: url(./images/Banner/banner1.jpg);">
+                    <div class="container ">
+                        <h1 class="slider-title">
+                            Woman Fashion
+                        </h1>
+                        <div class="btn btn-danger btn-gradient px-4 py-2 text-white">Shop Now</div>
+                    </div>
+
+                </div>
+                <div class="carousel-item bg-size d-flex align-items-center"
+                    style="background-image: url(./images/Banner/banner2.jpg);">
+                    <div class="container ">
+                        <p class="fs-4">50% off in all products</p>
+                        <h1 class=" slider-title">
+                            Man Fashion
+                        </h1>
+                        <div class="btn btn-danger btn-gradient px-4 py-2 text-white">Shop Now</div>
+                    </div>
+
+                </div>
+                <div class="carousel-item bg-size d-flex align-items-center"
+                    style="background-image: url(./images/Banner/banner3.jpg);">
+                    <div class="container ">
+                        <p class="fs-4">Taking your Viewing Experience to Next Level</p>
+                        <h1 class=" slider-title">
+                            Summer Sale
+                        </h1>
+                        <div class="btn btn-danger btn-gradient px-4 py-2 text-white">Shop Now</div>
+                    </div>
+
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- Catagory section  -->
+        <section class="my-5 container">
+            <div class="row row-cols-md-2 g-4">
+                <div>
+                    <div class="bg-size-ct d-flex align-items-center justify-content-end p-4"
+                        style="background-image: url(./images/catagory/shop_banner_img1.jpg);">
+
+                        <div>
+                            <p>Super sale</p>
+                            <h2>New Collection</h2>
+                            <button class="btn btn-warning rounded-3 text-white">Shop Now</button>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div>
+                    <div class="bg-size-ct d-flex align-items-center justify-content-end p-4"
+                        style="background-image: url(./images/catagory/shop_banner_img2.jpg);">
+
+                        <div>
+                            <p>Super sale</p>
+                            <h2>New Collection</h2>
+                            <button class="btn btn-warning rounded-3 text-white">Shop Now</button>
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+        <!-- Products  -->
+        <section class="container d-flex flex-column align-items-center">
+            <div class="slider-title text-center text-secondry mb-3">
+                <h2>Exclusive Products</h2>
+            </div>
+            <div class="mb-5">
+                <div class="d-flex justify-content-center mb-3">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link border-0 fs-5 text-decoration-none mx-3 active" id="home-tab"
+                                data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab"
+                                aria-controls="home" aria-selected="true">Home</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link border-0 fs-5 text-decoration-none mx-3" id="profile-tab"
+                                data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab"
+                                aria-controls="profile" aria-selected="false">Profile</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link border-0 fs-5 text-decoration-none mx-3" id="contact-tab"
+                                data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab"
+                                aria-controls="contact" aria-selected="false">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+
+                        <div class="container">
+                            <div class="row row-cols-lg-4 row-cols-md-2 row-cols-1 g-3 justify-content-center ">
+
+                                <div class="d-flex justify-content-center">
+                                    <div class="card p-0 shadow-sm" style="width: 16rem;">
+                                        <img src="./images/Product/product_img1.jpg" class="card-img-top img-fluid"
+                                            alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Blue Dress For Woman</h5>
+                                            <div class="d-flex">
+                                                <h5 class="text-danger">$45.00</h5> &nbsp;&nbsp;
+                                                <del class="text-secondary">$60.00</del> &nbsp;&nbsp;
+                                                <h6 class="text-success">35% Off</h6>
+                                            </div>
+                                            <div class="d-flex align-items-center">
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-secondary" aria-hidden="true"></i>
+                                                <span class="ms-2">(21)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <div class="card p-0  shadow-sm-sm" style="width: 16rem;">
+                                        <img src="./images/Product/product_img2.jpg" class="card-img-top img-fluid"
+                                            alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Blue Dress For Woman</h5>
+                                            <div class="d-flex">
+                                                <h5 class="text-danger">$45.00</h5> &nbsp;&nbsp;
+                                                <del class="text-secondary">$60.00</del> &nbsp;&nbsp;
+                                                <h6 class="text-success">35% Off</h6>
+                                            </div>
+                                            <div class="d-flex align-items-center">
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-secondary" aria-hidden="true"></i>
+                                                <span class="ms-2">(21)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <div class="card p-0  shadow-sm" style="width: 16rem;">
+                                        <img src="./images/Product/product_img3.jpg" class="card-img-top img-fluid"
+                                            alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Blue Dress For Woman</h5>
+                                            <div class="d-flex">
+                                                <h5 class="text-danger">$45.00</h5> &nbsp;&nbsp;
+                                                <del class="text-secondary">$60.00</del> &nbsp;&nbsp;
+                                                <h6 class="text-success">35% Off</h6>
+                                            </div>
+                                            <div class="d-flex align-items-center">
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-secondary" aria-hidden="true"></i>
+                                                <span class="ms-2">(21)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <div class="card p-0  shadow-sm" style="width: 16rem;">
+                                        <img src="./images/Product/product_img4.jpg" class="card-img-top img-fluid"
+                                            alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Blue Dress For Woman</h5>
+                                            <div class="d-flex">
+                                                <h5 class="text-danger">$45.00</h5> &nbsp;&nbsp;
+                                                <del class="text-secondary">$60.00</del> &nbsp;&nbsp;
+                                                <h6 class="text-success">35% Off</h6>
+                                            </div>
+                                            <div class="d-flex align-items-center">
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-secondary" aria-hidden="true"></i>
+                                                <span class="ms-2">(21)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <div class="card p-0  shadow-sm" style="width: 16rem;">
+                                        <img src="./images/Product/product_img5.jpg" class="card-img-top img-fluid"
+                                            alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Blue Dress For Woman</h5>
+                                            <div class="d-flex">
+                                                <h5 class="text-danger">$45.00</h5> &nbsp;&nbsp;
+                                                <del class="text-secondary">$60.00</del> &nbsp;&nbsp;
+                                                <h6 class="text-success">35% Off</h6>
+                                            </div>
+                                            <div class="d-flex align-items-center">
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-secondary" aria-hidden="true"></i>
+                                                <span class="ms-2">(21)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <div class="card p-0  shadow-sm" style="width: 16rem;">
+                                        <img src="./images/Product/product_img6.jpg" class="card-img-top img-fluid"
+                                            alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Blue Dress For Woman</h5>
+                                            <div class="d-flex">
+                                                <h5 class="text-danger">$45.00</h5> &nbsp;&nbsp;
+                                                <del class="text-secondary">$60.00</del> &nbsp;&nbsp;
+                                                <h6 class="text-success">35% Off</h6>
+                                            </div>
+                                            <div class="d-flex align-items-center">
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-secondary" aria-hidden="true"></i>
+                                                <span class="ms-2">(21)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <div class="card p-0  shadow-sm" style="width: 16rem;">
+                                        <img src="./images/Product/product_img7.jpg" class="card-img-top img-fluid"
+                                            alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Blue Dress For Woman</h5>
+                                            <div class="d-flex">
+                                                <h5 class="text-danger">$45.00</h5> &nbsp;&nbsp;
+                                                <del class="text-secondary">$60.00</del> &nbsp;&nbsp;
+                                                <h6 class="text-success">35% Off</h6>
+                                            </div>
+                                            <div class="d-flex align-items-center">
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-secondary" aria-hidden="true"></i>
+                                                <span class="ms-2">(21)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <div class="card p-0  shadow-sm" style="width: 16rem;">
+                                        <img src="./images/Product/product_img8.jpg" class="card-img-top img-fluid"
+                                            alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Blue Dress For Woman</h5>
+                                            <div class="d-flex">
+                                                <h5 class="text-danger">$45.00</h5> &nbsp;&nbsp;
+                                                <del class="text-secondary">$60.00</del> &nbsp;&nbsp;
+                                                <h6 class="text-success">35% Off</h6>
+                                            </div>
+                                            <div class="d-flex align-items-center">
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-secondary" aria-hidden="true"></i>
+                                                <span class="ms-2">(21)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                        <div class="container">
+                            <div class="row row-cols-lg-4 row-cols-md-2 row-cols-1 g-3 justify-content-center">
+                                <div class="d-flex justify-content-center">
+                                    <div class="card p-0 shadow-sm" style="width: 16rem;">
+                                        <img src="./images/Product/product_img9.jpg" class="card-img-top img-fluid"
+                                            alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Blue Dress For Woman</h5>
+                                            <div class="d-flex">
+                                                <h5 class="text-danger">$45.00</h5> &nbsp;&nbsp;
+                                                <del class="text-secondary">$60.00</del> &nbsp;&nbsp;
+                                                <h6 class="text-success">35% Off</h6>
+                                            </div>
+                                            <div class="d-flex align-items-center">
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-secondary" aria-hidden="true"></i>
+                                                <span class="ms-2">(21)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <div class="card p-0  shadow-sm-sm" style="width: 16rem;">
+                                        <img src="./images/Product/product_img10.jpg" class="card-img-top img-fluid"
+                                            alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Blue Dress For Woman</h5>
+                                            <div class="d-flex">
+                                                <h5 class="text-danger">$45.00</h5> &nbsp;&nbsp;
+                                                <del class="text-secondary">$60.00</del> &nbsp;&nbsp;
+                                                <h6 class="text-success">35% Off</h6>
+                                            </div>
+                                            <div class="d-flex align-items-center">
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-secondary" aria-hidden="true"></i>
+                                                <span class="ms-2">(21)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <div class="card p-0  shadow-sm" style="width: 16rem;">
+                                        <img src="./images/Product/product_img7.jpg" class="card-img-top img-fluid"
+                                            alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Blue Dress For Woman</h5>
+                                            <div class="d-flex">
+                                                <h5 class="text-danger">$45.00</h5> &nbsp;&nbsp;
+                                                <del class="text-secondary">$60.00</del> &nbsp;&nbsp;
+                                                <h6 class="text-success">35% Off</h6>
+                                            </div>
+                                            <div class="d-flex align-items-center">
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-secondary" aria-hidden="true"></i>
+                                                <span class="ms-2">(21)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <div class="card p-0  shadow-sm" style="width: 16rem;">
+                                        <img src="./images/Product/product_img6.jpg" class="card-img-top img-fluid"
+                                            alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Blue Dress For Woman</h5>
+                                            <div class="d-flex">
+                                                <h5 class="text-danger">$45.00</h5> &nbsp;&nbsp;
+                                                <del class="text-secondary">$60.00</del> &nbsp;&nbsp;
+                                                <h6 class="text-success">35% Off</h6>
+                                            </div>
+                                            <div class="d-flex align-items-center">
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-secondary" aria-hidden="true"></i>
+                                                <span class="ms-2">(21)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <div class="card p-0  shadow-sm" style="width: 16rem;">
+                                        <img src="./images/Product/product_img1.jpg" class="card-img-top img-fluid"
+                                            alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Blue Dress For Woman</h5>
+                                            <div class="d-flex">
+                                                <h5 class="text-danger">$45.00</h5> &nbsp;&nbsp;
+                                                <del class="text-secondary">$60.00</del> &nbsp;&nbsp;
+                                                <h6 class="text-success">35% Off</h6>
+                                            </div>
+                                            <div class="d-flex align-items-center">
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-secondary" aria-hidden="true"></i>
+                                                <span class="ms-2">(21)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <div class="card p-0  shadow-sm" style="width: 16rem;">
+                                        <img src="./images/Product/product_img8.jpg" class="card-img-top img-fluid"
+                                            alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Blue Dress For Woman</h5>
+                                            <div class="d-flex">
+                                                <h5 class="text-danger">$45.00</h5> &nbsp;&nbsp;
+                                                <del class="text-secondary">$60.00</del> &nbsp;&nbsp;
+                                                <h6 class="text-success">35% Off</h6>
+                                            </div>
+                                            <div class="d-flex align-items-center">
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-secondary" aria-hidden="true"></i>
+                                                <span class="ms-2">(21)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <div class="card p-0  shadow-sm" style="width: 16rem;">
+                                        <img src="./images/Product/product_img3.jpg" class="card-img-top img-fluid"
+                                            alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Blue Dress For Woman</h5>
+                                            <div class="d-flex">
+                                                <h5 class="text-danger">$45.00</h5> &nbsp;&nbsp;
+                                                <del class="text-secondary">$60.00</del> &nbsp;&nbsp;
+                                                <h6 class="text-success">35% Off</h6>
+                                            </div>
+                                            <div class="d-flex align-items-center">
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-secondary" aria-hidden="true"></i>
+                                                <span class="ms-2">(21)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <div class="card p-0  shadow-sm" style="width: 16rem;">
+                                        <img src="./images/Product/product_img4.jpg" class="card-img-top img-fluid"
+                                            alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Blue Dress For Woman</h5>
+                                            <div class="d-flex">
+                                                <h5 class="text-danger">$45.00</h5> &nbsp;&nbsp;
+                                                <del class="text-secondary">$60.00</del> &nbsp;&nbsp;
+                                                <h6 class="text-success">35% Off</h6>
+                                            </div>
+                                            <div class="d-flex align-items-center">
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-secondary" aria-hidden="true"></i>
+                                                <span class="ms-2">(21)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                        <div class="container">
+                            <div class="row row-cols-lg-4 row-cols-md-2 row-cols-1 g-3 justify-content-center">
+                                <div class="d-flex justify-content-center">
+                                    <div class="card p-0 shadow-sm" style="width: 16rem;">
+                                        <img src="./images/Product/product_img11.jpg" class="card-img-top img-fluid"
+                                            alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Blue Dress For Woman</h5>
+                                            <div class="d-flex">
+                                                <h5 class="text-danger">$45.00</h5> &nbsp;&nbsp;
+                                                <del class="text-secondary">$60.00</del> &nbsp;&nbsp;
+                                                <h6 class="text-success">35% Off</h6>
+                                            </div>
+                                            <div class="d-flex align-items-center">
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-secondary" aria-hidden="true"></i>
+                                                <span class="ms-2">(21)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <div class="card p-0  shadow-sm-sm" style="width: 16rem;">
+                                        <img src="./images/Product/product_img12.jpg" class="card-img-top img-fluid"
+                                            alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Blue Dress For Woman</h5>
+                                            <div class="d-flex">
+                                                <h5 class="text-danger">$45.00</h5> &nbsp;&nbsp;
+                                                <del class="text-secondary">$60.00</del> &nbsp;&nbsp;
+                                                <h6 class="text-success">35% Off</h6>
+                                            </div>
+                                            <div class="d-flex align-items-center">
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-secondary" aria-hidden="true"></i>
+                                                <span class="ms-2">(21)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <div class="card p-0  shadow-sm" style="width: 16rem;">
+                                        <img src="./images/Product/product_img13.jpg" class="card-img-top img-fluid"
+                                            alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Blue Dress For Woman</h5>
+                                            <div class="d-flex">
+                                                <h5 class="text-danger">$45.00</h5> &nbsp;&nbsp;
+                                                <del class="text-secondary">$60.00</del> &nbsp;&nbsp;
+                                                <h6 class="text-success">35% Off</h6>
+                                            </div>
+                                            <div class="d-flex align-items-center">
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-secondary" aria-hidden="true"></i>
+                                                <span class="ms-2">(21)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <div class="card p-0  shadow-sm" style="width: 16rem;">
+                                        <img src="./images/Product/product_img6.jpg" class="card-img-top img-fluid"
+                                            alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Blue Dress For Woman</h5>
+                                            <div class="d-flex">
+                                                <h5 class="text-danger">$45.00</h5> &nbsp;&nbsp;
+                                                <del class="text-secondary">$60.00</del> &nbsp;&nbsp;
+                                                <h6 class="text-success">35% Off</h6>
+                                            </div>
+                                            <div class="d-flex align-items-center">
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-secondary" aria-hidden="true"></i>
+                                                <span class="ms-2">(21)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <div class="card p-0  shadow-sm" style="width: 16rem;">
+                                        <img src="./images/Product/product_img1.jpg" class="card-img-top img-fluid"
+                                            alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Blue Dress For Woman</h5>
+                                            <div class="d-flex">
+                                                <h5 class="text-danger">$45.00</h5> &nbsp;&nbsp;
+                                                <del class="text-secondary">$60.00</del> &nbsp;&nbsp;
+                                                <h6 class="text-success">35% Off</h6>
+                                            </div>
+                                            <div class="d-flex align-items-center">
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-secondary" aria-hidden="true"></i>
+                                                <span class="ms-2">(21)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <div class="card p-0  shadow-sm" style="width: 16rem;">
+                                        <img src="./images/Product/product_img3.jpg" class="card-img-top img-fluid"
+                                            alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Blue Dress For Woman</h5>
+                                            <div class="d-flex">
+                                                <h5 class="text-danger">$45.00</h5> &nbsp;&nbsp;
+                                                <del class="text-secondary">$60.00</del> &nbsp;&nbsp;
+                                                <h6 class="text-success">35% Off</h6>
+                                            </div>
+                                            <div class="d-flex align-items-center">
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-secondary" aria-hidden="true"></i>
+                                                <span class="ms-2">(21)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <div class="card p-0  shadow-sm" style="width: 16rem;">
+                                        <img src="./images/Product/product_img2.jpg" class="card-img-top img-fluid"
+                                            alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Blue Dress For Woman</h5>
+                                            <div class="d-flex">
+                                                <h5 class="text-danger">$45.00</h5> &nbsp;&nbsp;
+                                                <del class="text-secondary">$60.00</del> &nbsp;&nbsp;
+                                                <h6 class="text-success">35% Off</h6>
+                                            </div>
+                                            <div class="d-flex align-items-center">
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-secondary" aria-hidden="true"></i>
+                                                <span class="ms-2">(21)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <div class="card p-0  shadow-sm" style="width: 16rem;">
+                                        <img src="./images/Product/product_img7.jpg" class="card-img-top img-fluid"
+                                            alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Blue Dress For Woman</h5>
+                                            <div class="d-flex">
+                                                <h5 class="text-danger">$45.00</h5> &nbsp;&nbsp;
+                                                <del class="text-secondary">$60.00</del> &nbsp;&nbsp;
+                                                <h6 class="text-success">35% Off</h6>
+                                            </div>
+                                            <div class="d-flex align-items-center">
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                                                <i class="fa fa-star text-secondary" aria-hidden="true"></i>
+                                                <span class="ms-2">(21)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section style="background-color: #F4F9FC;" class="mt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="d-flex justify-content-center">
+                            <img src="./images/tranding_img.png" alt="" style="margin-top: -50px;" class="img-fluid">
+                        </div>
+
+                    </div>
+                    <div class="col-md-7 d-flex align-items-center justify-content-center ps-5">
+                        <div class="my-5 text-md-start text-center">
+                            <p class="text-danger">New season trends!</p>
+                            <h2>Best Trendy Collection</h2>
+                            <button class="btn btn-danger bg-gradient rounded-3 text-white">Shop Now</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="text-center py-5">
+                <h2>Featured Products</h2>
+            </div>
+            <div class="text-center py-5" style="background-color: #FFF1F1;">
+                <h2>Our Client Say!</h2>
+            </div>
+        </section>
+<section>
+    
+</section>
+    </main>
+    <footer></footer>
+
+
+    <script src="https://kit.fontawesome.com/bb07e24eef.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+<!-- <div class="container">
+    <div class="row row-cols-lg-4 row-cols-md-2 row-cols-1 g-3 justify-content-center">
+        <div>
+            <div class="card p-0 shadow-sm" style="width: 16rem;">
+                <img src="./images/Product/product_img1.jpg" class="card-img-top img-fluid" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Blue Dress For Woman</h5>
+                    <div class="d-flex">
+                        <h5 class="text-danger">$45.00</h5> &nbsp;&nbsp;
+                        <del class="text-secondary">$60.00</del> &nbsp;&nbsp;
+                        <h6 class="text-success">35% Off</h6>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                        <i class="fa fa-star text-secondary" aria-hidden="true"></i>
+                        <span class="ms-2">(21)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="card p-0  shadow-sm-sm" style="width: 16rem;">
+                <img src="./images/Product/product_img2.jpg" class="card-img-top img-fluid" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Blue Dress For Woman</h5>
+                    <div class="d-flex">
+                        <h5 class="text-danger">$45.00</h5> &nbsp;&nbsp;
+                        <del class="text-secondary">$60.00</del> &nbsp;&nbsp;
+                        <h6 class="text-success">35% Off</h6>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                        <i class="fa fa-star text-secondary" aria-hidden="true"></i>
+                        <span class="ms-2">(21)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="card p-0  shadow-sm" style="width: 16rem;">
+                <img src="./images/Product/product_img3.jpg" class="card-img-top img-fluid" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Blue Dress For Woman</h5>
+                    <div class="d-flex">
+                        <h5 class="text-danger">$45.00</h5> &nbsp;&nbsp;
+                        <del class="text-secondary">$60.00</del> &nbsp;&nbsp;
+                        <h6 class="text-success">35% Off</h6>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                        <i class="fa fa-star text-secondary" aria-hidden="true"></i>
+                        <span class="ms-2">(21)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="card p-0  shadow-sm" style="width: 16rem;">
+                <img src="./images/Product/product_img4.jpg" class="card-img-top img-fluid" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Blue Dress For Woman</h5>
+                    <div class="d-flex">
+                        <h5 class="text-danger">$45.00</h5> &nbsp;&nbsp;
+                        <del class="text-secondary">$60.00</del> &nbsp;&nbsp;
+                        <h6 class="text-success">35% Off</h6>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                        <i class="fa fa-star text-secondary" aria-hidden="true"></i>
+                        <span class="ms-2">(21)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="card p-0  shadow-sm" style="width: 16rem;">
+                <img src="./images/Product/product_img5.jpg" class="card-img-top img-fluid" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Blue Dress For Woman</h5>
+                    <div class="d-flex">
+                        <h5 class="text-danger">$45.00</h5> &nbsp;&nbsp;
+                        <del class="text-secondary">$60.00</del> &nbsp;&nbsp;
+                        <h6 class="text-success">35% Off</h6>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                        <i class="fa fa-star text-secondary" aria-hidden="true"></i>
+                        <span class="ms-2">(21)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="card p-0  shadow-sm" style="width: 16rem;">
+                <img src="./images/Product/product_img6.jpg" class="card-img-top img-fluid" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Blue Dress For Woman</h5>
+                    <div class="d-flex">
+                        <h5 class="text-danger">$45.00</h5> &nbsp;&nbsp;
+                        <del class="text-secondary">$60.00</del> &nbsp;&nbsp;
+                        <h6 class="text-success">35% Off</h6>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                        <i class="fa fa-star text-secondary" aria-hidden="true"></i>
+                        <span class="ms-2">(21)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="card p-0  shadow-sm" style="width: 16rem;">
+                <img src="./images/Product/product_img7.jpg" class="card-img-top img-fluid" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Blue Dress For Woman</h5>
+                    <div class="d-flex">
+                        <h5 class="text-danger">$45.00</h5> &nbsp;&nbsp;
+                        <del class="text-secondary">$60.00</del> &nbsp;&nbsp;
+                        <h6 class="text-success">35% Off</h6>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                        <i class="fa fa-star text-secondary" aria-hidden="true"></i>
+                        <span class="ms-2">(21)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="card p-0  shadow-sm" style="width: 16rem;">
+                <img src="./images/Product/product_img8.jpg" class="card-img-top img-fluid" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Blue Dress For Woman</h5>
+                    <div class="d-flex">
+                        <h5 class="text-danger">$45.00</h5> &nbsp;&nbsp;
+                        <del class="text-secondary">$60.00</del> &nbsp;&nbsp;
+                        <h6 class="text-success">35% Off</h6>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                        <i class="fa fa-star text-secondary" aria-hidden="true"></i>
+                        <span class="ms-2">(21)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+</div> -->
